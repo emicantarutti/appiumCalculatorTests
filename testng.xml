@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Calculator Test Suite">
+
+	<test name="Calculator Tests">
+		<packages>
+			<package name="appium.wonkyCalculatorTests.tests" />
+		</packages>
+	</test>
+
+</suite>

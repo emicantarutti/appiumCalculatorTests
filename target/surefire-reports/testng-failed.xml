@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Calculator Test Suite]">
+  <test name="Calculator Tests(failed)">
+    <classes>
+      <class name="appium.wonkyCalculatorTests.tests.CalculatorPowerTests">
+        <methods>
+          <include name="verifyingThePowerOfTwo"/>
+        </methods>
+      </class> <!-- appium.wonkyCalculatorTests.tests.CalculatorPowerTests -->
+    </classes>
+  </test> <!-- Calculator Tests(failed) -->
+</suite> <!-- Failed suite [Calculator Test Suite] -->

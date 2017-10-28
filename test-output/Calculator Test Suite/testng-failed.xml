@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Calculator Test Suite]">
+  <test name="Calculator Tests(failed)">
+    <classes>
+      <class name="appium.wonkyCalculatorTests.tests.CalculatorDivisionTests">
+        <methods>
+          <include name="verifyingTheDivision"/>
+        </methods>
+      </class> <!-- appium.wonkyCalculatorTests.tests.CalculatorDivisionTests -->
+      <class name="appium.wonkyCalculatorTests.tests.CalculatorPowerTests">
+        <methods>
+          <include name="verifyingThePowerOfTwo"/>
+        </methods>
+      </class> <!-- appium.wonkyCalculatorTests.tests.CalculatorPowerTests -->
+      <class name="appium.wonkyCalculatorTests.tests.CalculatorSubstractionTests">
+        <methods>
+          <include name="verifyingTheSubstraction"/>
+        </methods>
+      </class> <!-- appium.wonkyCalculatorTests.tests.CalculatorSubstractionTests -->
+      <class name="appium.wonkyCalculatorTests.tests.CalculatorMultiplicationTests">
+        <methods>
+          <include name="verifyingTheMultiplication"/>
+        </methods>
+      </class> <!-- appium.wonkyCalculatorTests.tests.CalculatorMultiplicationTests -->
+      <class name="appium.wonkyCalculatorTests.tests.CalculatorSumTests">
+        <methods>
+          <include name="verifyingTheSum"/>
+        </methods>
+      </class> <!-- appium.wonkyCalculatorTests.tests.CalculatorSumTests -->
+      <class name="appium.wonkyCalculatorTests.tests.CalculatorSquareRootTests">
+        <methods>
+          <include name="verifyingTheSquareRoot"/>
+        </methods>
+      </class> <!-- appium.wonkyCalculatorTests.tests.CalculatorSquareRootTests -->
+    </classes>
+  </test> <!-- Calculator Tests(failed) -->
+</suite> <!-- Failed suite [Calculator Test Suite] -->
