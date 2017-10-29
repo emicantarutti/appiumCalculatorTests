@@ -24,7 +24,7 @@ public class CalculatorPowerTests extends BaseTestSetUp{
 		
 		repo.clickOnPowerButton();
 		
-		Assert.assertEquals("Result: 9", driver.findElementById("com.test.calc:id/result").getText());
+		Assert.assertEquals(driver.findElementById("com.test.calc:id/result").getText(), "Result: 9");
 	}
 	
 	

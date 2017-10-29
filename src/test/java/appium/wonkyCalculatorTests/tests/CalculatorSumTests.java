@@ -27,7 +27,7 @@ public class CalculatorSumTests extends BaseTestSetUp{
 		repo.clickOnAddButton();
 		repo.clickOnAddButton();
 		repo.clickOnAddButton();
-		Assert.assertEquals("Result: 10", driver.findElementById("com.test.calc:id/result").getText());
+		Assert.assertEquals(driver.findElementById("com.test.calc:id/result").getText(), "Result: 10");
 	}
 	
 }

@@ -24,7 +24,7 @@ public class CalculatorMultiplicationTests extends BaseTestSetUp{
 		repo.clickOnAddButton();
 		
 		repo.clickOnMultiplyButton();
-		Assert.assertEquals("Result: 8", driver.findElementById("com.test.calc:id/result").getText());
+		Assert.assertEquals(driver.findElementById("com.test.calc:id/result").getText(), "Result: 8");
 	}
 
 }

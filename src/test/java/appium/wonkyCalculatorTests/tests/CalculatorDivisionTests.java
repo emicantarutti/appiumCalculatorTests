@@ -26,7 +26,7 @@ public class CalculatorDivisionTests extends BaseTestSetUp{
 		
 		repo.clickOnDivideButton();
 		
-		Assert.assertEquals("Result: 2", driver.findElementById("com.test.calc:id/result").getText());
+		Assert.assertEquals(driver.findElementById("com.test.calc:id/result").getText(),"Result: 2");
 	}
 	
 	
