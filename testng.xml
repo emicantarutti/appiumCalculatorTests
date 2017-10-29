@@ -4,6 +4,7 @@
 	<test name="Calculator Tests">
 		<packages>
 			<package name="appium.wonkyCalculatorTests.tests" />
+			<package name="restApiTests" />
 		</packages>
 	</test>
 
